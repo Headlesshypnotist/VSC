@@ -1,0 +1,9 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.:\Users\olamyoyinadegbite\VSC\862688.png{
+background: url(bg-image.jpg) no repeat;
+background-size: cover;
+height: 100vh;
+}
