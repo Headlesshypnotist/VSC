@@ -1,0 +1,121 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family:sans-serif;
+    background: #5f87af;
+}
+
+ul{
+   float: right;
+    list-style: none;
+    margin-top: 15px;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    padding: 5px 6px;
+    border:1px solid transparent;
+    transition: 0.6s ease;
+}
+ul li a:hover{
+    background-color: brown;
+
+
+}
+ul li.active a{
+    background-color:rosybrown
+}
+
+.logo img{
+    float:left;
+    width: 150px;
+    height: auto;
+    }
+.main{
+    max-width: 1500px;
+    margin: auto;
+}
+
+.title{
+    background-position: top;
+    top:70%;
+    left: 50%;
+    transform: translate(-20% -70%);
+
+} 
+.title h1{
+    color: black;
+    font-size: 25px;
+}
+.wrapper{
+    background:url(R.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+    
+}   
+
+.box{
+    width: 300px;
+    padding: 20px;
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    bottom: ;
+    transform: translate(-50%, -50%);
+    background: #541d92;
+    text-align: center;    
+}
+.box h1:hover{
+    color:rgb(219, 184, 192);
+    text-transform: uppercase;
+    font-weight: 250;
+    
+}
+.box input[type = "text"],.box input[type = "password"]
+{
+background-color: aliceblue;
+border: 6px;
+background: none;
+display: block;
+margin: 20px auto;
+text-align: center;
+border: 2px solid #9ac2e2;
+padding: 9px 10px;
+width: 160px;
+outline: none;
+color: papayawhip;
+border-radius: 23px;
+transition: 0.25s;
+cursor: pointer;
+
+}
+
+
+.box input[type = "text"]:focus,.box input[type = "password"]:focus{
+width: 250px;
+border-color: coral;
+}
+
+.box input[type = "submit"]{
+ border: 0;
+background: none;
+display: block;
+margin: 20px auto;
+text-align: center;
+border: 2px solid papayawhip;
+padding: 9px 10px;
+outline: none;
+color: papayawhip;
+border-radius: 24px;
+transition: 0.25s;
+cursor: pointer;
+
+} 
+.box input[type = "submit"]:hover{
+background:rgb(144, 161, 187)
+
+}
+
